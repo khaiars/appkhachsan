@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="login_lable1">Tài Khoản</string>
+    <string name="login_lable2">Mật Khẩu</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="register_title">TẠO TÀI KHOẢN</string>
+    <string name="register_email">Email</string>
+    <string name="register_btn">Đăng Ký</string>
+
+    <string name="datphong_lable1">Nhập tên</string>
+    <string name="datphong_comback">Trở lại trang chủ</string>
+    <string name="datphong_btn">Đăt phòng</string>
+    <string name="date_button_ngayo">Nhấp vào để chọn ngày ở của bạn</string>
+    <string name="date_button_ngaydi">Nhấp vào để chọn ngày đi của bạn</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Nhấp vào để chọn ngày sinh của bạn</string>
+    <string name="date_view_set">Ngày sinh của bạn là </string>
+    <string name="date_selected"></string>
+</resources>

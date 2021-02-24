@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageviewbackgroundloaiphong"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/custom_background_banner"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+        <ImageView
+            android:id="@+id/imageviewloaiphong"
+            android:elevation="6dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@id/imageviewbackgroundloaiphong"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:maxLines="1"
+            android:id="@+id/textviewtenloaiphong"
+            android:text="phòng vip"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/imageviewbackgroundloaiphong"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@id/imageviewloaiphong"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000000"
+            android:textSize="13sp"
+            android:layout_alignBottom="@+id/imageviewbackgroundloaiphong"
+            android:textColor="#ffff"
+            android:layout_toRightOf="@id/imageviewloaiphong"
+            android:layout_marginLeft="13dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/textviewgia"
+
+            />
+
+        <Button
+            android:id="@+id/datphong"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageviewbackgroundloaiphong"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp"
+            android:text="Dat Ngay" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

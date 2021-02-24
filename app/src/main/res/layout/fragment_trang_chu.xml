@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="logout" />
+
+    <fragment
+        android:name="nguyenkhai.dmt.mykhachsan.Fragment.Fragment_Banner"
+        android:id="@+id/fragmentbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:name="nguyenkhai.dmt.mykhachsan.Fragment.Fragment_Khach_San"
+        android:id="@+id/fragmentkhachsan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5171a9">
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="#3e3ea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbarlayoutsreach">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbarsreach">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleviewsreach"
+        android:layout_below="@id/appbarlayoutsreach">
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:id="@+id/textviewkhongcodulieu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Không có dữ liệu khách sạn"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="#f20"/>
+
+</RelativeLayout>

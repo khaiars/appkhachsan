@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageviewbackgroundkhachsan1"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/custom_background_banner"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
+        <ImageView
+            android:id="@+id/imageviewkhachsan1"
+            android:elevation="6dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignBottom="@id/imageviewbackgroundkhachsan1"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:ellipsize="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="5dp"
+            android:maxLines="1"
+            android:id="@+id/textviewtenkhachsan1"
+            android:text="Pulman"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/imageviewbackgroundkhachsan1"
+            android:layout_marginLeft="13dp"
+            android:layout_toRightOf="@id/imageviewkhachsan1"
+            android:textSize="13sp"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

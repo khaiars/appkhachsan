@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/edittenkh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/datphong_lable1"
+            android:padding="10dp"
+            android:inputType="textCapWords"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+        <Button
+            android:id="@+id/btnngayo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="setDate"
+            android:text="@string/date_button_ngayo" />
+
+        <EditText
+            android:id="@+id/txtngayo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="5dp"
+            android:text="@string/date_selected"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btnngaydi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:onClick="setDate"
+            android:text="@string/date_button_ngaydi" />
+        <EditText
+            android:id="@+id/txtngaydi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/button1"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="5dp"
+            android:text="@string/date_selected"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/datphong"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#ea4c88"
+            android:text="@string/datphong_btn"
+            android:textColor="@color/white" />
+
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="@string/datphong_comback"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

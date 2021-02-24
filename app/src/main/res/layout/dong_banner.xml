@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imageviewbackgroundbanner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <View
+        android:background="@drawable/custom_background_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_alignBottom="@id/imageviewbackgroundbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textviewtitleloaiphong"
+            android:text="Phong thuong gia"
+            android:textSize="25sp"
+            android:textColor="#EFEAEA"
+            android:textStyle="bold"
+            android:textColorHighlight="#f00000"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            />
+        <RelativeLayout
+            android:layout_marginTop="7dp"
+
+            android:layout_below="@id/textviewtitleloaiphong"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
